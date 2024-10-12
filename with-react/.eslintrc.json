@@ -1,0 +1,13 @@
+{
+  "plugins": ["css"],
+  "extends": ["plugin:css/standard"],
+  "settings": {
+    "css": {
+      "target": {
+        "defineFunctions": {
+          "typedcssx": [["default", "/^\\w+$/u"]]
+        }
+      }
+    }
+  }
+}

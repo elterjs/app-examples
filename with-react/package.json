@@ -1,0 +1,27 @@
+{
+  "name": "with-react-swc",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "eslint": "^9.11.1",
+    "eslint-plugin-css": "^0.11.0",
+    "globals": "^15.9.0",
+    "typedcssx": "^3.2.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  }
+}
