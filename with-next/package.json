@@ -1,0 +1,27 @@
+{
+  "name": "latest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cssx && next dev",
+    "build": "cssx --compile && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.11",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.11",
+    "eslint-plugin-css": "^0.11.0",
+    "typedcssx": "^3.2.1",
+    "typedcssx-next-plugin": "^2.7.1",
+    "typescript": "^5"
+  }
+}

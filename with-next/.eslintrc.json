@@ -1,0 +1,17 @@
+{
+  "plugins": ["css"],
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:css/recommended"
+  ],
+  "settings": {
+    "css": {
+      "target": {
+        "defineFunctions": {
+          "typedcssx": [["default", "/^\\w+$/u"]]
+        }
+      }
+    }
+  }
+}
