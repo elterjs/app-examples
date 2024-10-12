@@ -37,8 +37,8 @@ importers:
         specifier: ^15.9.0
         version: 15.11.0
       typedcssx:
-        specifier: ^3.2.1
-        version: 3.2.1
+        specifier: ^3.2.2
+        version: 3.2.2
       typescript:
         specifier: ^5.5.3
         version: 5.6.3
@@ -991,8 +991,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  typedcssx@3.2.1:
-    resolution: {integrity: sha512-u+fBli2fZxlR+gPC8XFG6UQ7Wu/ILaJAt3hqPyBXKQHGIXfg6Olb4Het0R5qaOcxwWSSu9Ki+8aE20FTm3L2nA==}
+  typedcssx@3.2.2:
+    resolution: {integrity: sha512-yJHMUYElaluoXXGBHwGFLpBcuC0YRauRmB5kHarMIrxOI4SehMtuoBierMZ7RkKAzZRhoA1s/1xOhEqcbl6USA==}
     hasBin: true
 
   typescript@5.6.3:
@@ -1840,7 +1840,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  typedcssx@3.2.1:
+  typedcssx@3.2.2:
     dependencies:
       globby: 14.0.2
       tsx: 4.19.1
