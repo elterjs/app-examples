@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { ServerStylePreview } from "typedcssx/next";
 
 export const metadata: Metadata = {
