@@ -16,9 +16,4 @@ export default defineConfig({
   ssr: {
     noExternal: ["typedcssx"],
   },
-  build: {
-    rollupOptions: {
-      external: ["fs", "path"],
-    },
-  },
 });
