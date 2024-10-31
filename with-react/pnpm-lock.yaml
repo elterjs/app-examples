@@ -27,6 +27,9 @@ importers:
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.1
         version: 3.7.1(vite@5.4.8)
+      elter:
+        specifier: ^1.0.1
+        version: 1.0.1
       eslint:
         specifier: ^9.11.1
         version: 9.12.0
@@ -39,9 +42,6 @@ importers:
       globals:
         specifier: ^15.9.0
         version: 15.11.0
-      typedcssx:
-        specifier: ^3.2.5
-        version: 3.2.5
       typescript:
         specifier: ^5.5.3
         version: 5.6.3
@@ -641,6 +641,10 @@ packages:
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
+  elter@1.0.1:
+    resolution: {integrity: sha512-vVscMEg7B3m4Mf3djEILD7j8+aA1QFvSu6n+DCG5055WzYRCpQA19anJtIzmrb0FpDHEeWD1X2AR/d9hl+8WdQ==}
+    hasBin: true
+
   esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
     engines: {node: '>=12'}
@@ -970,18 +974,14 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  tsx@4.19.1:
-    resolution: {integrity: sha512-0flMz1lh74BR4wOvBjuh9olbnwqCPc35OOlfyzHba0Dc+QNUeWX/Gq2YTbnwcWPO3BMd8fkzRVrHcsR+a7z7rA==}
+  tsx@4.19.2:
+    resolution: {integrity: sha512-pOUl6Vo2LUq/bSa8S5q7b91cgNSjctn9ugq/+Mvow99qW6x/UZYwzxy/3NmqoT66eHYfCVvFvACC58UBPFf28g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
-
-  typedcssx@3.2.5:
-    resolution: {integrity: sha512-3akAHO/I0QkeIr0NCInn/E/fq0HsaeQKhPyeQypf8I1B8o1epJhDo4FoN9nGwe9wDwixeU50ul5oKZMf89LzAw==}
-    hasBin: true
 
   typescript@5.6.3:
     resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
@@ -1427,6 +1427,11 @@ snapshots:
 
   deep-is@0.1.4: {}
 
+  elter@1.0.1:
+    dependencies:
+      globby: 14.0.2
+      tsx: 4.19.2
+
   esbuild@0.21.5:
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.21.5
@@ -1803,7 +1808,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tsx@4.19.1:
+  tsx@4.19.2:
     dependencies:
       esbuild: 0.23.1
       get-tsconfig: 4.8.1
@@ -1813,11 +1818,6 @@ snapshots:
   type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
-
-  typedcssx@3.2.5:
-    dependencies:
-      globby: 14.0.2
-      tsx: 4.19.1
 
   typescript@5.6.3: {}
 
