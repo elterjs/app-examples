@@ -1,5 +1,5 @@
-import cssx from "typedcssx";
-const css = cssx.create({
+import elter from "elter";
+const styles = elter.create({
   color: {
     color: "darkcyan",
   },
@@ -7,8 +7,10 @@ const css = cssx.create({
 
 function App() {
   return (
-    <p className={css.color}>
+    <p className={styles.color}>
       Edit <code>src/App.js</code> and save to reload.
+      <br />
+      CRA + elter
     </p>
   );
 }

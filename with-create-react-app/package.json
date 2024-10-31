@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build"
+    "build": "elter --compile && react-app-rewired build"
   },
   "browserslist": {
     "production": [
@@ -25,7 +25,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.3.12",
+    "elter": "^1.0.1",
     "react-app-rewired": "^2.2.1",
-    "typedcssx": "^3.2.5"
+    "typescript": "^5.6.3"
   }
 }
