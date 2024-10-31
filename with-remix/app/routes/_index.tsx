@@ -1,9 +1,9 @@
 import type { MetaFunction } from "@remix-run/node";
-import cssx from "typedcssx";
+import elter from "elter";
 
-const css = cssx.create({
-  cyan: {
-    color: "darkcyan",
+const styles = elter.create({
+  color: {
+    color: "skyblue",
   },
 });
 
@@ -19,8 +19,8 @@ export default function Index() {
     <div>
       <div>
         <header>
-          <h1 className={css.cyan}>
-            Welcome to <span className="sr-only">Remix</span>
+          <h1 className={styles.color}>
+            Welcome to <span className="sr-only">elter + Remix</span>
           </h1>
           <div>
             <img src="/logo-light.png" alt="Remix" />

@@ -1,6 +1,6 @@
-import cssx from "typedcssx";
+import elter from "elter";
 
-cssx.global({
+elter.global({
   body: {
     margin: "0 auto",
   },

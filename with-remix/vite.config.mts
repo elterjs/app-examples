@@ -14,6 +14,6 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   ssr: {
-    noExternal: ["typedcssx"],
+    noExternal: ["elter"],
   },
 });
