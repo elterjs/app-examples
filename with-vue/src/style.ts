@@ -1,7 +1,7 @@
-import cssx from "typedcssx";
+import elter from "elter";
 
-export const css = cssx.create({
+export const styles = elter.create({
   color: {
-    color: "darkcyan",
+    color: "skyblue",
   },
 });

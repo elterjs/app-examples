@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
-import { css } from "./style";
+import { styles } from "./style";
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import { css } from "./style";
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <div :class="css.color">typedcssx + hellow vue.js</div>
+  <div :class="styles.color">elter + vue.js</div>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
