@@ -1,7 +1,7 @@
 import Image from "next/image";
-import cssx from "typedcssx";
+import elter from "elter";
 
-const css = cssx.create({
+const styles = elter.create({
   color: {
     color: "orange",
     display: "inline",
@@ -21,7 +21,7 @@ export default function Home() {
           priority
         />
         <ol>
-          <li className={css.color}>
+          <li className={styles.color}>
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ServerStylePreview } from "typedcssx/next";
+import { ServerCSS } from "elter/next";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <ServerStylePreview />
+        <ServerCSS />
       </head>
       <body>{children}</body>
     </html>
