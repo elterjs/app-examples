@@ -2,7 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
-  import { css } from './style'
+  import { styles } from './style'
 </script>
 
 <main>
@@ -14,7 +14,7 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1 class={css.color}>Vite + Svelte + TypedCSSX</h1>
+  <h1 class={styles.color}>Vite + Svelte + elter</h1>
 
   <div class="card">
     <Counter />
